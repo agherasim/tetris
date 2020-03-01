@@ -14,7 +14,6 @@ func TestIntMax(t *testing.T) {
 }
 
 func TestCountBits(t *testing.T) {
-	assert.Equal(t, 1, bits.Len(0x1))
-	assert.Equal(t, 2, bits.Len(0x3))
+	assert.Equal(t, 0, bits.Len(0x0))
 	assert.Equal(t, 3, bits.Len(0x7))
 }
